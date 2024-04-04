@@ -16,7 +16,7 @@ Este projeto apresenta uma solução inovadora de sistema de recepção web, des
 Este projeto foi desenvolvido em colaboração com um colega de equipe, visando atender à necessidade de um sistema de controle de entradas e horários de visitas na Recepção da Câmara Municipal de Montes Claros. A solução busca otimizar o gerenciamento de visitantes, garantindo um controle eficiente e seguro das atividades realizadas dentro da instituição.
 ## Demonstração do Sistema
 
-<img width="470" src="https://user-images.githubusercontent.com/marci/sistema_financas/main/images_home/20240211_130700.mp4">
+<img width="470" src="https://user-images.githubusercontent.com/marci/sistema_financas/main/images_home/demonstrativo_home.mp4">
 
 
 
@@ -30,7 +30,7 @@ Este projeto foi desenvolvido em colaboração com um colega de equipe, visando 
 
 
 
-<img width="470" src="https://user-images.githubusercontent.com/marci/sistema_financas/main/images_home/d20240211_132141.mp4">
+<img width="470" src="https://user-images.githubusercontent.com/marci/sistema_financas/main/images_home/demonstrativo_relatorio.mp4">
 
 ## Contribuição
 
