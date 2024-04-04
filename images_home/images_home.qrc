@@ -1,0 +1,29 @@
+<RCC>
+  <qresource prefix="images_home">
+    <file>fechamento_dia.png</file>
+    <file>voltar.png</file>
+    <file>novo_mes.png</file>
+    <file>fechar_mes.png</file>
+    <file>up.png</file>
+    <file>lixeira_table.png</file>
+    <file>down.png</file>
+    <file>cifrao.png</file>
+    <file>total.png</file>
+    <file>saldo.png</file>
+    <file>buscar.png</file>
+    <file>create.png</file>
+    <file>delete.png</file>
+    <file>olhinho.png</file>
+    <file>refresh.png</file>
+    <file>soma.png</file>
+    <file>down_combobox.png</file>
+    <file>fechado.png</file>
+    <file>chave.png</file>
+    <file>Logo_GM.png</file>
+    <file>logo_GM_JPEG.jpg</file>
+    <file>procurar.png</file>
+    <file>caixa.png</file>
+
+
+  </qresource>
+</RCC>

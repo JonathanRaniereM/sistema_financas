@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1930</width>
+    <height>1082</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="home_widget">
+   <widget class="QLabel" name="label_header_home">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1941</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(2,0,36,1), stop:1 rgba(9,121,35,1), stop:2 rgba(0,212,255,1));
+
+font: 75 12pt &quot;Arial Narrow&quot;;
+
+
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>HERMANN.FINANCE  </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignHCenter|Qt::AlignTop</set>
+    </property>
+    <property name="margin">
+     <number>22</number>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_mes_header">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>50</y>
+      <width>301</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+color: rgb(255, 255, 255);
+
+
+font: 87 28pt &quot;Arial Black&quot;;
+border:none;
+</string>
+    </property>
+    <property name="text">
+     <string>FEVEREIRO</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="image_cifrao_header">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>20</y>
+      <width>24</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+border-image: url(:/images_home/cifrao.png);
+
+color: rgb(255, 255, 255);
+
+
+
+border:none;
+</string>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_entradas">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>130</y>
+      <width>211</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Sans Serif Collection&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(51, 51, 51);
+border-radius:10px;</string>
+    </property>
+    <property name="text">
+     <string>Entradas</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <property name="indent">
+     <number>16</number>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_entradas_valor">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>200</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+color: rgb(51, 51, 51);
+
+
+
+font: 18pt &quot;Arial Rounded MT Bold&quot;;
+border:none;</string>
+    </property>
+    <property name="text">
+     <string>+ R$ 2.273,31</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_saidas">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>130</y>
+      <width>211</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Sans Serif Collection&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(51, 51, 51);
+border-radius:10px;</string>
+    </property>
+    <property name="text">
+     <string>Saidas</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <property name="indent">
+     <number>16</number>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_saidas_valor">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>200</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+color: rgb(51, 51, 51);
+
+
+
+font: 18pt &quot;Arial Rounded MT Bold&quot;;
+border:none;</string>
+    </property>
+    <property name="text">
+     <string>- R$ 10.127,82</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_total">
+    <property name="geometry">
+     <rect>
+      <x>1360</x>
+      <y>130</y>
+      <width>211</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Sans Serif Collection&quot;;
+
+color: rgb(255, 255, 255);
+border-radius:10px;
+background-color: rgb(246, 68, 68);</string>
+    </property>
+    <property name="text">
+     <string>Total</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <property name="indent">
+     <number>16</number>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_total_valor">
+    <property name="geometry">
+     <rect>
+      <x>1390</x>
+      <y>200</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+color: rgb(255, 255, 255);
+
+
+
+
+font: 18pt &quot;Arial Rounded MT Bold&quot;;
+border:none;</string>
+    </property>
+    <property name="text">
+     <string>- R$ 7.854,51</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>290</y>
+      <width>1231</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);</string>
+    </property>
+    <property name="lineWidth">
+     <number>0</number>
+    </property>
+    <property name="midLineWidth">
+     <number>0</number>
+    </property>
+    <property name="autoScroll">
+     <bool>true</bool>
+    </property>
+    <property name="autoScrollMargin">
+     <number>16</number>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::ExtendedSelection</enum>
+    </property>
+    <property name="columnCount">
+     <number>5</number>
+    </property>
+    <attribute name="horizontalHeaderMinimumSectionSize">
+     <number>100</number>
+    </attribute>
+    <row>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Doc N°</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignLeading|AlignVCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Cliente</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Forma Pagamento</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Data</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string/>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>Aluguel imóvel Vila Segura</string>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string>Excluir</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial Black</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="background">
+      <brush brushstyle="NoBrush">
+       <color alpha="255">
+        <red>246</red>
+        <green>68</green>
+        <blue>68</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foreground">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>246</red>
+        <green>68</green>
+        <blue>68</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/images_home/lixeira_table.png</normalon>
+      </iconset>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTextBrowser" name="image_cifrao_header_2">
+    <property name="geometry">
+     <rect>
+      <x>1530</x>
+      <y>160</y>
+      <width>24</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+border-image: url(:/images_home/total.png);
+
+color: rgb(255, 255, 255);
+
+
+
+border:none;
+</string>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="image_cifrao_header_3">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>150</y>
+      <width>24</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+border-image: url(:/images_home/down.png);
+
+color: rgb(255, 255, 255);
+
+
+
+border:none;
+</string>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="image_cifrao_header_4">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>160</y>
+      <width>24</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+border-image: url(:/images_home/up.png);
+
+color: rgb(255, 255, 255);
+
+
+
+border:none;
+</string>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menu_opcoes">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1930</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_opcoes_item0">
+    <property name="title">
+     <string>Opções</string>
+    </property>
+    <addaction name="actionProcurar"/>
+    <addaction name="actionCadastrar"/>
+    <addaction name="actionApagar"/>
+    <addaction name="actionAtualizar"/>
+    <addaction name="actionVer_Meses"/>
+    <addaction name="actionNovo_mes"/>
+    <addaction name="actionFechar_mes"/>
+    <addaction name="actionDetalhes_do_Saldo"/>
+    <addaction name="actionFechamento_do_Dia"/>
+   </widget>
+   <addaction name="menu_opcoes_item0"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionProcurar">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/buscar.png</normaloff>:/images_home/buscar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Procurar</string>
+   </property>
+  </action>
+  <action name="actionCadastrar">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/create.png</normaloff>:/images_home/create.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cadastrar</string>
+   </property>
+  </action>
+  <action name="actionApagar">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/delete.png</normaloff>:/images_home/delete.png</iconset>
+   </property>
+   <property name="text">
+    <string>Apagar</string>
+   </property>
+  </action>
+  <action name="actionAtualizar">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/refresh.png</normaloff>:/images_home/refresh.png</iconset>
+   </property>
+   <property name="text">
+    <string>Atualizar</string>
+   </property>
+  </action>
+  <action name="actionVer_Meses">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/olhinho.png</normaloff>:/images_home/olhinho.png</iconset>
+   </property>
+   <property name="text">
+    <string>Ver Meses</string>
+   </property>
+  </action>
+  <action name="actionNovo_mes">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/novo_mes.png</normaloff>:/images_home/novo_mes.png</iconset>
+   </property>
+   <property name="text">
+    <string>Novo Mês</string>
+   </property>
+  </action>
+  <action name="actionFechar_mes">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/fechar_mes.png</normaloff>:/images_home/fechar_mes.png</iconset>
+   </property>
+   <property name="text">
+    <string>Fechar Mês</string>
+   </property>
+  </action>
+  <action name="actionDetalhes_do_Saldo">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/saldo.png</normaloff>:/images_home/saldo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Detalhes do Saldo</string>
+   </property>
+  </action>
+  <action name="actionFechamento_do_Dia">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/fechamento_dia.png</normaloff>:/images_home/fechamento_dia.png</iconset>
+   </property>
+   <property name="text">
+    <string>Fechamento do Dia</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="images_home/images_home.qrc"/>
+ </resources>
+ <connections/>
+</ui>

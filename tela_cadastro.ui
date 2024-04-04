@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1930</width>
+    <height>1077</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="home_widget">
+   <widget class="QTextEdit" name="textEdit_Doc">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>350</y>
+      <width>821</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_mes_header_2">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>290</y>
+      <width>301</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+
+
+
+border:none;
+</string>
+    </property>
+    <property name="text">
+     <string>DOC N°</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_mes_header_3">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>440</y>
+      <width>301</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+
+
+
+border:none;
+</string>
+    </property>
+    <property name="text">
+     <string>CLIENTE</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_Cliente">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>500</y>
+      <width>821</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_formaPagamento">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>650</y>
+      <width>821</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_mes_header_4">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>590</y>
+      <width>301</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+
+
+
+border:none;
+</string>
+    </property>
+    <property name="text">
+     <string>FORMA PAGAMENTO</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEdit">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>800</y>
+      <width>821</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sans Serif Collection</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_mes_header_5">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>740</y>
+      <width>301</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+
+
+
+border:none;
+</string>
+    </property>
+    <property name="text">
+     <string>DATA</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>920</y>
+      <width>821</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 210, 135);
+color: rgb(255, 255, 255);
+font: 20pt &quot;Sans Serif Collection&quot;;
+border-radius:10px;</string>
+    </property>
+    <property name="text">
+     <string>Confirmar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_voltar">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>70</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/images_home/voltar.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_entrada">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>290</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Sans Serif Collection&quot;;
+color: rgb(0, 210, 135);</string>
+    </property>
+    <property name="text">
+     <string>ENTRADA</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_saida">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>290</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Sans Serif Collection&quot;;
+color: rgb(246, 68, 68);</string>
+    </property>
+    <property name="text">
+     <string>SAIDA</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menu_opcoes">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1930</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_opcoes_item0">
+    <property name="title">
+     <string>Opções</string>
+    </property>
+    <addaction name="actionProcurar"/>
+    <addaction name="actionCadastrar"/>
+    <addaction name="actionApagar"/>
+    <addaction name="actionAtualizar"/>
+    <addaction name="actionVer_Meses"/>
+    <addaction name="actionNovo_mes"/>
+    <addaction name="actionFechar_mes"/>
+    <addaction name="actionDetalhes_do_Saldo"/>
+    <addaction name="actionFechamento_do_Dia"/>
+   </widget>
+   <addaction name="menu_opcoes_item0"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionProcurar">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/buscar.png</normaloff>:/images_home/buscar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Procurar</string>
+   </property>
+  </action>
+  <action name="actionCadastrar">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/create.png</normaloff>:/images_home/create.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cadastrar</string>
+   </property>
+  </action>
+  <action name="actionApagar">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/delete.png</normaloff>:/images_home/delete.png</iconset>
+   </property>
+   <property name="text">
+    <string>Apagar</string>
+   </property>
+  </action>
+  <action name="actionAtualizar">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/refresh.png</normaloff>:/images_home/refresh.png</iconset>
+   </property>
+   <property name="text">
+    <string>Atualizar</string>
+   </property>
+  </action>
+  <action name="actionVer_Meses">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/olhinho.png</normaloff>:/images_home/olhinho.png</iconset>
+   </property>
+   <property name="text">
+    <string>Ver Meses</string>
+   </property>
+  </action>
+  <action name="actionNovo_mes">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/novo_mes.png</normaloff>:/images_home/novo_mes.png</iconset>
+   </property>
+   <property name="text">
+    <string>Novo Mês</string>
+   </property>
+  </action>
+  <action name="actionFechar_mes">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/fechar_mes.png</normaloff>:/images_home/fechar_mes.png</iconset>
+   </property>
+   <property name="text">
+    <string>Fechar Mês</string>
+   </property>
+  </action>
+  <action name="actionDetalhes_do_Saldo">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/saldo.png</normaloff>:/images_home/saldo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Detalhes do Saldo</string>
+   </property>
+  </action>
+  <action name="actionFechamento_do_Dia">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/fechamento_dia.png</normaloff>:/images_home/fechamento_dia.png</iconset>
+   </property>
+   <property name="text">
+    <string>Fechamento do Dia</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="images_home/images_home.qrc"/>
+ </resources>
+ <connections/>
+</ui>

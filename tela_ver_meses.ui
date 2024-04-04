@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1930</width>
+    <height>1055</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="home_widget">
+   <widget class="QRadioButton" name="radioButton_entrada_2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>320</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+</string>
+    </property>
+    <property name="text">
+     <string>2024</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_entrada_3">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>320</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+</string>
+    </property>
+    <property name="text">
+     <string>2026</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_entrada_4">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>320</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+</string>
+    </property>
+    <property name="text">
+     <string>2027</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_entrada_5">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>320</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+</string>
+    </property>
+    <property name="text">
+     <string>2028</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_entrada_6">
+    <property name="geometry">
+     <rect>
+      <x>1290</x>
+      <y>320</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+</string>
+    </property>
+    <property name="text">
+     <string>2029</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_entrada_7">
+    <property name="geometry">
+     <rect>
+      <x>1480</x>
+      <y>320</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+</string>
+    </property>
+    <property name="text">
+     <string>2030</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_entrada_8">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>320</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+</string>
+    </property>
+    <property name="text">
+     <string>2025</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>420</y>
+      <width>481</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+
+border-radius:10px;
+background-color: rgb(255, 255, 255);
+</string>
+    </property>
+    <property name="text">
+     <string>JANEIRO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>420</y>
+      <width>481</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+
+border-radius:10px;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>FEVEREIRO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>500</y>
+      <width>481</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+
+border-radius:10px;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>MARÇO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>500</y>
+      <width>481</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+
+border-radius:10px;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>ABRIL</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>580</y>
+      <width>481</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+
+border-radius:10px;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>MAIO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>580</y>
+      <width>481</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+
+border-radius:10px;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>JUNHO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>660</y>
+      <width>481</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+
+border-radius:10px;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>JULHO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>660</y>
+      <width>481</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+
+border-radius:10px;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>AGOSTO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>740</y>
+      <width>481</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+
+border-radius:10px;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>SETEMBRO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>740</y>
+      <width>481</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+
+border-radius:10px;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>OUTUBRO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>820</y>
+      <width>481</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+
+border-radius:10px;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>NOVEMBRO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_12">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>820</y>
+      <width>481</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 22pt &quot;Sans Serif Collection&quot;;
+color: rgb(51, 51, 51);
+
+border-radius:10px;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>DEZEMBRO</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>370</y>
+      <width>1241</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(2,0,36,1), stop:1 rgba(9,121,35,1), stop:2 rgba(0,212,255,1));</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_13">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>902</y>
+      <width>1231</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 22pt &quot;Sans Serif Collection&quot;;
+
+background-color: rgb(0, 210, 135);
+color: rgb(255, 255, 255);
+
+border-radius:10px;
+</string>
+    </property>
+    <property name="text">
+     <string>VER RESUMO ANUAL</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionProcurar">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/buscar.png</normaloff>:/images_home/buscar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Procurar</string>
+   </property>
+  </action>
+  <action name="actionCadastrar">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/create.png</normaloff>:/images_home/create.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cadastrar</string>
+   </property>
+  </action>
+  <action name="actionApagar">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/delete.png</normaloff>:/images_home/delete.png</iconset>
+   </property>
+   <property name="text">
+    <string>Apagar</string>
+   </property>
+  </action>
+  <action name="actionAtualizar">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/refresh.png</normaloff>:/images_home/refresh.png</iconset>
+   </property>
+   <property name="text">
+    <string>Atualizar</string>
+   </property>
+  </action>
+  <action name="actionVer_Meses">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/olhinho.png</normaloff>:/images_home/olhinho.png</iconset>
+   </property>
+   <property name="text">
+    <string>Ver Meses</string>
+   </property>
+  </action>
+  <action name="actionNovo_mes">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/novo_mes.png</normaloff>:/images_home/novo_mes.png</iconset>
+   </property>
+   <property name="text">
+    <string>Novo Mês</string>
+   </property>
+  </action>
+  <action name="actionFechar_mes">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/fechar_mes.png</normaloff>:/images_home/fechar_mes.png</iconset>
+   </property>
+   <property name="text">
+    <string>Fechar Mês</string>
+   </property>
+  </action>
+  <action name="actionDetalhes_do_Saldo">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/saldo.png</normaloff>:/images_home/saldo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Detalhes do Saldo</string>
+   </property>
+  </action>
+  <action name="actionFechamento_do_Dia">
+   <property name="icon">
+    <iconset resource="images_home/images_home.qrc">
+     <normaloff>:/images_home/fechamento_dia.png</normaloff>:/images_home/fechamento_dia.png</iconset>
+   </property>
+   <property name="text">
+    <string>Fechamento do Dia</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="images_home/images_home.qrc"/>
+ </resources>
+ <connections/>
+</ui>
