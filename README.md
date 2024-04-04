@@ -30,7 +30,7 @@ Este projeto foi desenvolvido em colaboração com um colega de equipe, visando 
 
 
 
-<img width="470" src="https://user-images.githubusercontent.com/marci/sistema_financas/main/images_home/d20240211_132141.mp4">
+<img width="470" src="https://user-images.githubusercontent.com/marci/sistema_financas/images_home/d20240211_132141.mp4">
 
 ## Contribuição
 
