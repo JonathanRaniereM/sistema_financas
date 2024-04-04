@@ -1,34 +1,27 @@
-# Sistema de Recepção Web Integrado com Terminal Eletrônico de Assinatura
-
-## Sobre o Projeto
-
-Este projeto apresenta uma solução inovadora de sistema de recepção web, desenvolvido com o foco em eficiência, segurança e conformidade com a legislação vigente. A principal funcionalidade do sistema é sua integração com o terminal eletrônico de assinatura da Topaz Systems, proporcionando uma experiência de uso ágil e segura para os usuários.
-
-### Características Principais
-
-- **Integração com Terminal Eletrônico de Assinatura**: Utilizamos tecnologia de ponta da Topaz Systems para garantir que as assinaturas coletadas sejam feitas de forma segura e eficaz.
-- **Conformidade com LGPD**: Nosso sistema segue rigorosamente todas as normas da Lei Geral de Proteção de Dados (LGPD) para a coleta e tratamento de dados, assegurando a privacidade e segurança das informações dos usuários.
-- **Armazenamento de Dados Seguro**: Os dados coletados são armazenados em um servidor MySQL, com todas as medidas de segurança de rede e autenticação em duas etapas implementadas para garantir a máxima proteção.
-- **Comunicação em Tempo Real**: Implementamos o Redis Server em conjunto com o Django Channels para enviar mensagens via WebSockets, assegurando que qualquer atualização realizada seja imediatamente refletida em todas as máquinas conectadas ao sistema.
-
-## Motivação
-
-Este projeto foi desenvolvido em colaboração com um colega de equipe, visando atender à necessidade de um sistema de controle de entradas e horários de visitas na Recepção da Câmara Municipal de Montes Claros. A solução busca otimizar o gerenciamento de visitantes, garantindo um controle eficiente e seguro das atividades realizadas dentro da instituição.
-## Demonstração do Sistema
+# Sistema de Finanças .exe para Windows
 
 <img width="800" src="https://raw.githubusercontent.com/JonathanRaniereM/sistema_financas/main/images_home/demonstrativo_home.gif">
 
+## Sobre o Projeto
+O Sistema de Finanças .exe para Windows é uma solução de controle financeiro projetada para facilitar a gestão de entradas e saídas de recursos. Similar a uma planilha de Excel, porém com uma interface dedicada, o sistema permite aos usuários registrarem suas transações financeiras de forma organizada e eficiente.
 
+### Características Principais
 
+- **Segurança de Dados Através de Armazenamento MySQL**: Utilizamos um repositório de dados MySQL configurado com protocolos de segurança avançados. Isso inclui criptografia de dados em repouso e em trânsito, além de autenticação em duas etapas. Essas medidas visam proporcionar uma camada robusta de proteção contra acessos não autorizados, mitigando riscos de violações de dados e garantindo a integridade e a confidencialidade dos dados armazenados.
 
+- **Geração de Relatórios em PDF Mensais e Anuais**: O sistema oferece a funcionalidade de gerar relatórios em PDF, permitindo aos usuários visualizarem um panorama detalhado de suas finanças ao longo do tempo.
 
+- **Fechamento do Dia Através do Acesso do Usuário "Admin"**: Apenas o administrador do sistema pode fechar um determinado dia, impedindo que outros usuários realizem edições nas entradas e saídas referentes a esse período. Isso garante a precisão e a consistência dos registros financeiros.
 
-## Como Utilizar
+- **Controle Manual de Caixa por Usuário**: Cada usuário tem a capacidade de controlar manualmente seu próprio caixa, registrando os meios pelos quais guarda seu dinheiro.
 
-[Incluir instruções ...]
+- **Detalhes de Saldo com Acesso Restrito ao Usuário "Admin"**: A funcionalidade de "Detalhes de Saldo" permite que o administrador do sistema realize pesquisas abrangentes sobre todos os dias específicos, incluindo entradas, saídas e formas de pagamento. Isso oferece uma visão detalhada do fluxo de caixa da organização.
 
+## Motivação
 
+A motivação por trás da criação deste sistema reside na necessidade de oferecer aos pequenos negócios e estabelecimentos uma ferramenta acessível e simplificada para o controle de seus gastos e lucros. Acreditamos que ao proporcionar uma plataforma que simplifica e organiza as finanças, estamos capacitando essas empresas a tomarem decisões mais informadas e estratégicas, contribuindo assim para o seu sucesso e crescimento sustentável.
 
+## Demonstração do Sistema
 
 <img width="800" src="https://raw.githubusercontent.com/JonathanRaniereM/sistema_financas/main/images_home/demonstrativo_relatorio.gif">
 
@@ -42,6 +35,6 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE.md par
 
 ---
 
-Para mais informações, por favor, entre em contato conosco através de [inserir meio de contato].
+Para mais informações, por favor, entre em contato conosco através de enginerdeveloper7@gmail.com.
 
 Agradecemos seu interesse e apoio ao nosso projeto!
