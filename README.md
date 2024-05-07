@@ -23,7 +23,7 @@ A motivação por trás da criação deste sistema reside na necessidade de ofer
 
 ## Demonstração do Sistema
 
-<img width="800" src="https://raw.githubusercontent.com/JonathanRaniereM/sistema_financas/main/images_home/demonstrativo_relatorio.gif">
+<img width="700" src="https://raw.githubusercontent.com/JonathanRaniereM/sistema_financas/main/images_home/demonstrativo_relatorio.gif">
 
 ## Contribuição
 
