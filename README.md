@@ -1,6 +1,6 @@
 # Sistema de Finanças .exe para Windows
 
-<img width="800" src="https://raw.githubusercontent.com/JonathanRaniereM/sistema_financas/main/images_home/demonstrativo_home.gif">
+<img width="700" src="https://raw.githubusercontent.com/JonathanRaniereM/sistema_financas/main/images_home/demonstrativo_home.gif">
 
 ## Sobre o Projeto
 O Sistema de Finanças .exe para Windows é uma solução de controle financeiro projetada para facilitar a gestão de entradas e saídas de recursos. Similar a uma planilha de Excel, porém com uma interface dedicada, o sistema permite aos usuários registrarem suas transações financeiras de forma organizada e eficiente.
